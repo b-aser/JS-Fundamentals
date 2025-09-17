@@ -5,7 +5,7 @@ if (argv[2] == undefined){
 }else{
     argv.forEach((val, index) => {
         if (index >= 2){
-            console.log(val + " ");
+            console.log(val);
         }
     });
 }
